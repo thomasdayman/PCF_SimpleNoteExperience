@@ -1,4 +1,4 @@
-# PCF_SimpleNoteExperience
+# PCF - SimpleNoteExperience
 Use this control to enable a simplified user experience for creating notes. This control was primarily built for mobile but can also be used on the web.
 
 ![Simple Note Experience Preview gif](https://www.daymandynamics.com/wp-content/uploads/2020/11/SimpleNoteExperience.gif)
@@ -19,3 +19,7 @@ To allow the PCF control to work on your mobile device you will need to enable t
 
 ## Managed Solution
 I have added a managed solution within the 'Releases' folder
+
+
+## Blog Post
+I have added a blog post [here](https://www.daymandynamics.com/pcf-simple-note-experience/) for more information
