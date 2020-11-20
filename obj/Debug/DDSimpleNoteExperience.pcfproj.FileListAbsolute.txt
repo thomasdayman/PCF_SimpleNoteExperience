@@ -1,0 +1,2 @@
+C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience\obj\Debug\DDSimpleNoteExperience.pcfprojAssemblyReference.cache
+C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience\obj\Debug\DDSimpleNoteExperience.pcfproj.CoreCompileInputs.cache

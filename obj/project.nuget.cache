@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JrCfh+SRramJGJuAstlOyOiilx58GNAxdh/P2jBaETioIu3Jjy3+5O/4fdYRSaogFECW3Tz4HAGZTYzCepEF4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tdayman\\Desktop\\DaymanDynamics\\PCF\\DDSimpleNoteExperience\\DDSimpleNoteExperience.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tdayman\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.4.4\\microsoft.powerapps.msbuild.pcf.1.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

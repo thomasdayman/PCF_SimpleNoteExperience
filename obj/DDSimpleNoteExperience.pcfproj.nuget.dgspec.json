@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tdayman\\Desktop\\DaymanDynamics\\PCF\\DDSimpleNoteExperience\\DDSimpleNoteExperience.pcfproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tdayman\\Desktop\\DaymanDynamics\\PCF\\DDSimpleNoteExperience\\DDSimpleNoteExperience.pcfproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tdayman\\Desktop\\DaymanDynamics\\PCF\\DDSimpleNoteExperience\\DDSimpleNoteExperience.pcfproj",
+        "projectName": "DDSimpleNoteExperience",
+        "projectPath": "C:\\Users\\Tdayman\\Desktop\\DaymanDynamics\\PCF\\DDSimpleNoteExperience\\DDSimpleNoteExperience.pcfproj",
+        "packagesPath": "C:\\Users\\Tdayman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tdayman\\Desktop\\DaymanDynamics\\PCF\\DDSimpleNoteExperience\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tdayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "dependencies": {
+            "Microsoft.PowerApps.MSBuild.Pcf": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

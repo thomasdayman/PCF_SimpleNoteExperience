@@ -1,0 +1,58 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+  
+  > pcf-project@1.0.0 clean C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience
+  > pcf-scripts clean "--noColor" "--buildMode" "development" "--outDir" "C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience\out\controls" "--buildSource" "MSBuild"
+  
+  [17:08:04] [clean]  Initializing...
+  [17:08:04] [clean]  Cleaning build outputs...
+  [17:08:04] [clean]  Succeeded
+  Cleaning output directory: bin\Debug\, Intermediate directory: obj\Debug\ and Solution Packager working directory: obj\Debug\
+  Removing log file: bin\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_dd.zip
+  
+  > pcf-project@1.0.0 build C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience
+  > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience\out\controls" "--buildSource" "MSBuild"
+  
+  [17:08:07] [build]  Initializing...
+  [17:08:07] [build]  Validating manifest...
+  [17:08:07] [build]  Validating control...
+  [17:08:08] [build]  Generating manifest types...
+  [17:08:08] [build]  Compiling and bundling control...
+  [Webpack stats]:
+  Hash: fa77d6b71dc027dd949c
+  Version: webpack 4.42.1
+  Time: 2423ms
+  Built at: 20/11/2020 17:08:10
+      Asset     Size  Chunks             Chunk Names
+  bundle.js  339 KiB    main  [emitted]  main
+  Entrypoint main = bundle.js
+  [./SimpleNoteExperience/index.ts] 13.9 KiB {main} [built]
+  [./node_modules/jquery/dist/jquery.js] 308 KiB {main} [built]
+  [17:08:10] [build]  Generating build outputs...
+  [17:08:10] [build]  Succeeded
+  Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_dd.zip
+  SolutionPackger CRM Solution Packaging Tool [Version 9.1.0.49]
+  © 2017 Microsoft Corporation.  All rights reserved
+  
+  
+  Packing C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience\obj\PowerAppsTools_dd\obj\Debug\Metadata to bin\Debug\PowerAppsTools_dd.zip
+  
+  Processing Component: Entities
+  Processing Component: Roles
+  Processing Component: Workflows
+  Processing Component: FieldSecurityProfiles
+  Processing Component: Templates
+  Processing Component: EntityMaps
+  Processing Component: EntityRelationships
+  Processing Component: OrganizationSettings
+  Processing Component: optionsets
+  Processing Component: CustomControls
+   - daymandynamics.SimpleNoteExperience
+  Processing Component: SolutionPluginAssemblies
+  Processing Component: EntityDataProviders
+  
+  Unmanaged Pack complete.
+  
+  Solution: bin\Debug\PowerAppsTools_dd.zip generated.
+  Solution Package Type: Unmanaged generated.
+  Completed intermiediate files clean up.
