@@ -1,0 +1,36 @@
+2020-11-20 14:31:33.895 - Info	
+Packing C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience\Solution\SimpleNoteExperience\obj\Debug\Metadata to bin\Debug\SimpleNoteExperience.zip
+
+2020-11-20 14:31:33.907 - Info	Processing Component: Entities
+2020-11-20 14:31:33.910 - Info	Processing Component: Roles
+2020-11-20 14:31:33.912 - Info	Processing Component: Workflows
+2020-11-20 14:31:33.912 - Info	Processing Component: FieldSecurityProfiles
+2020-11-20 14:31:33.913 - Info	Processing Component: Templates
+2020-11-20 14:31:33.913 - Info	Processing Component: EntityMaps
+2020-11-20 14:31:33.913 - Info	Processing Component: EntityRelationships
+2020-11-20 14:31:33.916 - Info	Processing Component: OrganizationSettings
+2020-11-20 14:31:33.917 - Info	Processing Component: optionsets
+2020-11-20 14:31:33.917 - Info	Processing Component: CustomControls
+2020-11-20 14:31:33.926 - Info	 - daymandynamics.SimpleNoteExperience
+2020-11-20 14:31:33.972 - Info	Processing Component: EntityDataProviders
+2020-11-20 14:31:34.008 - Info	
+Unmanaged Pack complete.
+
+2020-11-20 17:39:55.033 - Info	
+Packing C:\Users\Tdayman\Desktop\DaymanDynamics\PCF\DDSimpleNoteExperience\Solution\SimpleNoteExperience\obj\Debug\Metadata to bin\Debug\SimpleNoteExperience.zip
+
+2020-11-20 17:39:55.068 - Info	Processing Component: Entities
+2020-11-20 17:39:55.072 - Info	Processing Component: Roles
+2020-11-20 17:39:55.076 - Info	Processing Component: Workflows
+2020-11-20 17:39:55.076 - Info	Processing Component: FieldSecurityProfiles
+2020-11-20 17:39:55.076 - Info	Processing Component: Templates
+2020-11-20 17:39:55.077 - Info	Processing Component: EntityMaps
+2020-11-20 17:39:55.077 - Info	Processing Component: EntityRelationships
+2020-11-20 17:39:55.080 - Info	Processing Component: OrganizationSettings
+2020-11-20 17:39:55.080 - Info	Processing Component: optionsets
+2020-11-20 17:39:55.081 - Info	Processing Component: CustomControls
+2020-11-20 17:39:55.100 - Info	 - daymandynamics.SimpleNoteExperience
+2020-11-20 17:39:55.149 - Info	Processing Component: EntityDataProviders
+2020-11-20 17:39:55.202 - Info	
+Unmanaged Pack complete.
+
