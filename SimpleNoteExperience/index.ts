@@ -379,7 +379,24 @@ export class SimpleNoteExperience implements ComponentFramework.StandardControl<
 		this.noteLabelElement.innerHTML = fileName;
 	}
 
-	private createNote(subject: string, notetext: string, isDocument: boolean, entityName: string | null, entityId: string | null, fileName: string | null, mimeType: string | null, fileContent: string | null, fileSize: Number, isMainMenu: boolean): void {
+	private GetEntityPluralName = async (entityName: string): Promise <any> => {
+        let entityplural;
+		
+		await this._context.utils.getEntityMetadata(entityName)
+		.then(			
+			(result) => {
+				entityplural = result.EntitySetName;
+		},
+		(error) => {
+			this.stopLoading();
+			this.showFailureAlert(error);
+			entityplural = error;
+		});
+
+		return entityplural;
+	}
+
+	private createNote = async (subject: string, notetext: string, isDocument: boolean, entityName: string, entityId: string | null, fileName: string | null, mimeType: string | null, fileContent: string | null, fileSize: Number, isMainMenu: boolean): Promise <any> => {
 		let entity: any = {};
 		entity.subject = subject;
 		entity.notetext = notetext;
@@ -389,7 +406,7 @@ export class SimpleNoteExperience implements ComponentFramework.StandardControl<
 			entity.documentbody = fileContent;
 			entity.mimetype = mimeType;
 		}
-		entity["objectid_" + entityName + "@odata.bind"] = "/" + entityName + "s(" + entityId + ")";
+		entity["objectid_" + entityName + "@odata.bind"] = "/" + await this.GetEntityPluralName(entityName) + "(" + entityId + ")";
 
 		this._context.webAPI.createRecord("annotation", entity).then(
 			(result) => {
